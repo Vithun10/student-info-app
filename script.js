@@ -1,1 +1,4 @@
-// JavaScript functionality will be added by Student 3 on feature/javascript
+document.getElementById("showDetailsBtn").addEventListener("click", function () {
+  const box = document.getElementById("detailsBox");
+  box.classList.toggle("hidden");
+});
